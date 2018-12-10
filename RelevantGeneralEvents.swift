@@ -26,7 +26,6 @@ class TPI_RelevantGeneralEvents: NSObject, THOPluginProtocol
                 userParted(message, for: client);
                 return nil;
             case "QUIT":
-//                return message;
                 userQuit(message, for: client);
                 return nil;
             default:
@@ -45,7 +44,6 @@ class TPI_RelevantGeneralEvents: NSObject, THOPluginProtocol
         while ((activeChannelUsers[senderChannel.name]?.count)! > CHAT_MAX) {
             activeChannelUsers[senderChannel.name]?.removeFirst();
         }
-        os_log("length - %{public}d", (activeChannelUsers[senderChannel.name]?.count)!);
     }
     
     func userJoined(_ message: IRCMessage, for client: IRCClient) {
@@ -136,13 +134,6 @@ class TPI_RelevantGeneralEvents: NSObject, THOPluginProtocol
     }
 
     func removeNickname(_ nickname: String, from channel: IRCChannel) {
-        // This should be sufficent
         channel.removeMember(withNickname: nickname);
-
-//        channel.memberList.filter({ (user) -> Bool in
-//            return user.user.nickname == nickname;
-//        }).forEach({ (user) in
-//            channel.removeMember(user);
-//        })
     }
 }
