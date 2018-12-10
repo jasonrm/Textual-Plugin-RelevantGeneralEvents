@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C38AD881946BB2C00B4A7AB /* SwiftPluginExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38AD871946BB2C00B4A7AB /* SwiftPluginExample.swift */; };
+		4C38AD881946BB2C00B4A7AB /* RelevantGeneralEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38AD871946BB2C00B4A7AB /* RelevantGeneralEvents.swift */; };
 		4C51BE9412D0471600E79CEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C51BE9312D0471600E79CEB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C38AD861946BB2B00B4A7AB /* SwiftPluginExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPluginExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		4C38AD871946BB2C00B4A7AB /* SwiftPluginExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPluginExample.swift; sourceTree = "<group>"; };
+		4C38AD861946BB2B00B4A7AB /* RelevantGeneralEvents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelevantGeneralEvents-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C38AD871946BB2C00B4A7AB /* RelevantGeneralEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelevantGeneralEvents.swift; sourceTree = "<group>"; };
 		4C51BE9312D0471600E79CEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		8D576316048677EA00EA77CD /* SwiftPluginExample.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPluginExample.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576316048677EA00EA77CD /* RelevantGeneralEvents.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelevantGeneralEvents.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +61,8 @@
 		08FB77AFFE84173DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4C38AD871946BB2C00B4A7AB /* SwiftPluginExample.swift */,
-				4C38AD861946BB2B00B4A7AB /* SwiftPluginExample-Bridging-Header.h */,
+				4C38AD871946BB2C00B4A7AB /* RelevantGeneralEvents.swift */,
+				4C38AD861946BB2B00B4A7AB /* RelevantGeneralEvents-Bridging-Header.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -70,7 +70,7 @@
 		19C28FB6FE9D52B211CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D576316048677EA00EA77CD /* SwiftPluginExample.bundle */,
+				8D576316048677EA00EA77CD /* RelevantGeneralEvents.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D57630D048677EA00EA77CD /* SwiftPluginExample */ = {
+		8D57630D048677EA00EA77CD /* RelevantGeneralEvents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "SwiftPluginExample" */;
+			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "RelevantGeneralEvents" */;
 			buildPhases = (
 				8D57630F048677EA00EA77CD /* Resources */,
 				8D576311048677EA00EA77CD /* Sources */,
@@ -98,10 +98,10 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPluginExample;
+			name = RelevantGeneralEvents;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = PreferencePaneExample;
-			productReference = 8D576316048677EA00EA77CD /* SwiftPluginExample.bundle */;
+			productReference = 8D576316048677EA00EA77CD /* RelevantGeneralEvents.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "SwiftPluginExample" */;
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "RelevantGeneralEvents" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D57630D048677EA00EA77CD /* SwiftPluginExample */,
+				8D57630D048677EA00EA77CD /* RelevantGeneralEvents */,
 			);
 		};
 /* End PBXProject section */
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C38AD881946BB2C00B4A7AB /* SwiftPluginExample.swift in Sources */,
+				4C38AD881946BB2C00B4A7AB /* RelevantGeneralEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,9 +170,9 @@
 				HEADER_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/Headers/**\"";
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.extension.SwiftPluginExample;
-				PRODUCT_NAME = SwiftPluginExample;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPluginExample-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = net.hckr.jasonrm.textual.rge;
+				PRODUCT_NAME = RelevantGeneralEvents;
+				SWIFT_OBJC_BRIDGING_HEADER = "RelevantGeneralEvents-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = bundle;
@@ -189,9 +189,9 @@
 				HEADER_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/Headers/**\"";
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.extension.SwiftPluginExample;
-				PRODUCT_NAME = SwiftPluginExample;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPluginExample-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = net.hckr.jasonrm.textual.rge;
+				PRODUCT_NAME = RelevantGeneralEvents;
+				SWIFT_OBJC_BRIDGING_HEADER = "RelevantGeneralEvents-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
@@ -273,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "SwiftPluginExample" */ = {
+		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "RelevantGeneralEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB911B08733D790010E9CD /* Debug */,
@@ -282,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "SwiftPluginExample" */ = {
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "RelevantGeneralEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB911F08733D790010E9CD /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D57630D048677EA00EA77CD"
-               BuildableName = "SwiftPluginExample.bundle"
-               BlueprintName = "SwiftPluginExample"
-               ReferencedContainer = "container:SwiftPluginExample.xcodeproj">
+               BuildableName = "RelevantGeneralEvents.bundle"
+               BlueprintName = "RelevantGeneralEvents"
+               ReferencedContainer = "container:RelevantGeneralEvents.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D57630D048677EA00EA77CD"
-            BuildableName = "SwiftPluginExample.bundle"
-            BlueprintName = "SwiftPluginExample"
-            ReferencedContainer = "container:SwiftPluginExample.xcodeproj">
+            BuildableName = "RelevantGeneralEvents.bundle"
+            BlueprintName = "RelevantGeneralEvents"
+            ReferencedContainer = "container:RelevantGeneralEvents.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
